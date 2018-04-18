@@ -44,7 +44,7 @@ module.exports = {
     contentBase: path.join(__dirname, 'public'),
     publicPath: '/dist/',
     proxy: {
-      '/api': 'http://localhost:3000'
+      '/api': 'http://goldcurbs.com:3000'
     }
   }
 }
